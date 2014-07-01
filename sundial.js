@@ -1,5 +1,5 @@
 /*!
- * Sundial v0.1
+ * Sundial v0.1.1
  * Date/Time formatting functions
  * MIT license
  * 
@@ -39,7 +39,7 @@
 			return this.formattedDate(datetime) + ' at ' + this.formattedTime(datetime);
 		},
 		humanDiff: function(time) {
-			time = new Date(time),
+			var time = new Date(time),
 			now = new Date(),
 			diff = (now.getTime() - time.getTime()) / 1000,
 			day_diff = Math.floor(diff / 86400); // 3600 * 24 = 86400
