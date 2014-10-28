@@ -27,7 +27,7 @@ sundial.formattedDateTime(new Date()); // Aug 20 @ 2:11pm
 
 ***
 
-I had to wrote this code to implement the same in my own projects and thought it would be useful to many others too. I am planning to make it a more robust and feature-rich to work with time and dates (but no promises yet). - [Mohit Mamoria](https://twitter.com/mohitmamoria)
+I had to write this code to implement the same in my own projects and thought it would be useful to many others too. I am planning to make it a more robust and feature-rich to work with time and dates (but no promises yet). - [Mohit Mamoria](https://twitter.com/mohitmamoria)
 
 ### License
 
